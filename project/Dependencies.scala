@@ -5,14 +5,14 @@ import Keys._
 
 object Dependencies {
   object versions {
-    val grpc                    = "1.33.1"
-    val protobuf                = "3.13.0"
-    val silencer                = "1.7.1"
-    val collectionCompat        = "2.3.2"
-    val coursier                = "2.0.8"
-    val protocGen               = "0.9.0-RC10"
-    val protobufRuntimeScala    = "0.8.6"
-    val commonsCodec            = "1.15"
+    val grpc                 = "1.33.1"
+    val protobuf             = "3.13.0"
+    val silencer             = "1.7.1"
+    val collectionCompat     = "2.3.2"
+    val coursier             = "2.0.8"
+    val protocGen            = "0.9.0-RC10"
+    val protobufRuntimeScala = "0.8.6"
+    val commonsCodec         = "1.15"
 
     // For testing
     val annotationApi           = "1.3.2"
@@ -69,7 +69,7 @@ object Dependencies {
   val munitScalaCheck      = Def.setting { "org.scalameta" %%% "munit-scalacheck" % versions.munit }
   val mockitoCore          = "org.mockito"        % "mockito-core"  % versions.mockito
   val commonsCodec         = "commons-codec"      % "commons-codec" % versions.commonsCodec
-  val cats = "org.typelevel" %% "cats-core" % versions.cats
+  val cats                 = "org.typelevel"     %% "cats-core"     % versions.cats
 
   val annotationApi =
     "javax.annotation" % "javax.annotation-api" % versions.annotationApi // needed for grpc-java on JDK9
